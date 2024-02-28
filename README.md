@@ -23,3 +23,9 @@ python wrapper_final.py -i /path/to/input/_1.fastq /path/to/input/_2.fastq
 ````
 
 A log file 'PipelineProject.log' will be generated with the top 10 hits.
+
+To test the script using the test data provided in the repository, download the .fastq files and run the command below.
+
+````bash
+python wrapper_final.py -i donor1d2_1.fastq donor1d2_2.fastq donor1d6_1.fastq donor1d6_2.fastq donor3d2_1.fastq donor3d2_2.fastq donor3d6_1.fastq donor3d6_2.fastq
+````
