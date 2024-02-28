@@ -16,6 +16,6 @@ Nucleotide BLAST - (2.15.0+) BLAST is used to search for virus strain matches. T
 
 Included in this repository are several sample data files that can be used to test the functionality of the code. 
 
-python wrapper.py -i /path/to/input/_1.fastq /path/to/input/_2.fastq 
+'python wrapper_final.py -i /path/to/input/_1.fastq /path/to/input/_2.fastq'
 
 Multiple input fastq files can be added, as long as they are separated by a space and read 1 is before read 2.
