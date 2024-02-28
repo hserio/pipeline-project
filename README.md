@@ -2,6 +2,8 @@
 
 ## Dependencies
 
+All of the tools below must be installed in order for the code to run. Versions to download are also listed.
+
 Python - (3.10) Python is necessary to run the code.
 
 BioPython - BioPython is used to parse fasta files and must be installed prior to running the script.
@@ -14,8 +16,10 @@ Nucleotide BLAST - (2.15.0+) BLAST is used to search for virus strain matches. T
 
 ## Running the code
 
-Included in this repository are several sample data files that can be used to test the functionality of the code. 
+Included in this repository are several sample data files that can be used to test the functionality of the code. Multiple input fastq files can be added, as long as they are separated by a space and read 1 is before read 2.
 
-'python wrapper_final.py -i /path/to/input/_1.fastq /path/to/input/_2.fastq'
+````bash
+python wrapper_final.py -i /path/to/input/_1.fastq /path/to/input/_2.fastq
+````
 
-Multiple input fastq files can be added, as long as they are separated by a space and read 1 is before read 2.
+A log file 'PipelineProject.log' will be generated with the top 10 hits.
